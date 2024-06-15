@@ -3,7 +3,7 @@ from langchain.memory import ConversationBufferMemory
 
 from utils import get_chat_response
 
-st.title("💬和3D蓝聊会天")
+st.title("💬和3D蓝聊天")
 
 with st.sidebar:
     openai_api_key = st.text_input("请输入OpenAI API Key：", type="password")
